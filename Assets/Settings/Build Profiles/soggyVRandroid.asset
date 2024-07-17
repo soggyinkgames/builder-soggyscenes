@@ -17,9 +17,7 @@ MonoBehaviour:
   m_PlatformId: b9b35072a6f44c2e863f17467ea3dc13
   m_PlatformBuildProfile:
     rid: 2579621780360003847
-  m_Scenes:
-  - m_enabled: 1
-    m_path: Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoScene.unity
+  m_Scenes: []
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings:
@@ -35,7 +33,7 @@ MonoBehaviour:
     - line: '|   useOnDemandResources: 0'
     - line: '|   accelerometerFrequency: 60'
     - line: '|   companyName: com.soggyinkgames'
-    - line: '|   productName: builder-soggyscenes-demoscene'
+    - line: '|   productName: builder-soggyscenes'
     - line: '|   defaultCursor: {instanceID: 0}'
     - line: '|   cursorHotspot: {x: 0, y: 0}'
     - line: '|   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b:
@@ -962,7 +960,7 @@ MonoBehaviour:
     - line: '|   qnxGraphicConfPath: '
     - line: '|   apiCompatibilityLevel: 6'
     - line: '|   captureStartupLogs: {}'
-    - line: '|   activeInputHandler: 2'
+    - line: '|   activeInputHandler: 1'
     - line: '|   windowsGamepadBackendHint: 0'
     - line: '|   cloudProjectId: 7ac6dc66-dc0d-4a6b-a096-08aba96ccfb4'
     - line: '|   framebufferDepthMemorylessMode: 0'
@@ -998,7 +996,7 @@ MonoBehaviour:
         m_ExportAsGoogleAndroidProject: 0
         m_DebugSymbolLevel: 1
         m_DebugSymbolFormat: 5
-        m_CurrentDeploymentTargetId: __builtin__target_default
+        m_CurrentDeploymentTargetId: 1WMHHB68GE1514
         m_BuildType: 1
         m_BuildAppBundle: 0
         m_IPAddressToConnect: 
