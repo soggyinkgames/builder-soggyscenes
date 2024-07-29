@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/3.0.4/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SoggyScene2.unity
     guid: f9e85d70aeb53ec47bd6bbbe046f11d4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HandGestures.unity
     guid: e6a7384084f709747a989dea6fa794fa
   m_configObjects:
