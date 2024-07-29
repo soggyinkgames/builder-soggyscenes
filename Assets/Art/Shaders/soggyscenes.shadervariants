@@ -7,7 +7,4 @@ ShaderVariantCollection:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: soggyscenes
-  m_Shaders:
-  - first: {fileID: -6465566751694194690, guid: bd11349dc99f3fd4083ef2f86cee9c1f, type: 3}
-    second:
-      variants: []
+  m_Shaders: {}
