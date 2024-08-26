@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.soggyinkgames.package-soggyscenes": "https://github.com/soggyinkgames/package-soggyscenes.git",
+    "com.soggyinkgames.package-soggyterrain": "https://github.com/soggyinkgames/package-soggyterrain.git",
     "com.unity.ai.navigation": "2.0.0",
     "com.unity.collab-proxy": "2.4.3",
     "com.unity.ide.rider": "3.0.28",

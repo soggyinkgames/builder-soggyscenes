@@ -11,6 +11,16 @@
       },
       "hash": "ee31683a933f606008743210977b04eb2e2ffa3a"
     },
+    "com.soggyinkgames.package-soggyterrain": {
+      "version": "https://github.com/soggyinkgames/package-soggyterrain.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.terrain-tools": "5.0.4",
+        "com.unity.render-pipelines.universal": "14.0.7"
+      },
+      "hash": "6924e108426f76156eaaa842c75e1b51f68d81cd"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.0",
       "depth": 0,
@@ -181,6 +191,16 @@
         "com.unity.render-pipelines.core": "17.0.3",
         "com.unity.searcher": "4.9.2"
       }
+    },
+    "com.unity.terrain-tools": {
+      "version": "5.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.terrainphysics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.4.4",
