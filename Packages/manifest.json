@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.soggyinkgames.package-inventorsvisualeffects": "https://github.com/soggyinkgames/package-inventorsvisualeffects.git",
     "com.soggyinkgames.package-soggyscenes": "https://github.com/soggyinkgames/package-soggyscenes.git",
     "com.soggyinkgames.package-soggyterrain": "https://github.com/soggyinkgames/package-soggyterrain.git",
     "com.unity.ai.navigation": "2.0.0",

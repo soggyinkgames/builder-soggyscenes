@@ -1,5 +1,16 @@
 {
   "dependencies": {
+    "com.soggyinkgames.package-inventorsvisualeffects": {
+      "version": "https://github.com/soggyinkgames/package-inventorsvisualeffects.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.visualeffectgraph": "13.1.8",
+        "com.unity.render-pipelines.universal": "13.1.8",
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "hash": "01df761dfe1a8be989ac4d715498d3ec55b04051"
+    },
     "com.soggyinkgames.package-soggyscenes": {
       "version": "https://github.com/soggyinkgames/package-soggyscenes.git",
       "depth": 0,
@@ -250,6 +261,15 @@
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
+      }
+    },
+    "com.unity.visualeffectgraph": {
+      "version": "17.0.3",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.shadergraph": "17.0.3",
+        "com.unity.render-pipelines.core": "17.0.3"
       }
     },
     "com.unity.visualscripting": {
