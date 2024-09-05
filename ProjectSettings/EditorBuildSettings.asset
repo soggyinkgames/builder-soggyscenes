@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 0
     path: "Assets/Samples/Meta XR Interaction \u200BSDK/68.0.1/Example Scenes/PoseExamples.unity"
     guid: 4fe358b21fe17764db89a9ab9f202327
+  - enabled: 0
+    path: Assets/Scenes/KeyboardDemo.unity
+    guid: ad3bc6be3dfc6fe4c93410327d58b369
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e600f289176c4d9429e6e168d99fd532, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
