@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "com.meta.xr.sdk.interaction": "68.0.1",
-    "com.meta.xr.sdk.interaction.ovr": "68.0.1",
     "com.soggyinkgames.package-inventorsvisualeffects": "https://github.com/soggyinkgames/package-inventorsvisualeffects.git",
     "com.soggyinkgames.package-soggyscenes": "https://github.com/soggyinkgames/package-soggyscenes.git",
     "com.soggyinkgames.package-soggyterrain": "https://github.com/soggyinkgames/package-soggyterrain.git",
@@ -17,7 +15,7 @@
     "com.unity.visualscripting": "1.9.4",
     "com.unity.xr.arfoundation": "6.0.2",
     "com.unity.xr.hands": "1.4.1",
-    "com.unity.xr.interaction.toolkit": "3.0.4",
+    "com.unity.xr.interaction.toolkit": "3.0.5",
     "com.unity.xr.management": "4.5.0",
     "com.unity.xr.meta-openxr": "2.0.1",
     "com.unity.xr.oculus": "4.2.0",
