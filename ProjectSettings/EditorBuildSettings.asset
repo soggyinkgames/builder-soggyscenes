@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HandGestures.unity
     guid: e6a7384084f709747a989dea6fa794fa
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PROTOTYPE-YOUR-NAME.unity
     guid: 9fee39a3fdd973f42b627c5b67a70d5a
   - enabled: 0
@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/XR Hands/1.4.1/Gestures/HandGestures.unity
     guid: cd792f2302b8b6f4c9f264e2a4503e15
+  - enabled: 1
+    path: Assets/Scenes/URP_VFX_Learning_Templates.unity
+    guid: 89357738dfc74fa4d8b7fbe30dc9b559
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e600f289176c4d9429e6e168d99fd532, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
