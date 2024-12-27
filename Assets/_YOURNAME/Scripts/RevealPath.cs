@@ -28,6 +28,7 @@ public class RevealPath : MonoBehaviour
         // Ensure only the player triggers the effect and avoid multiple triggers
         if (isAnimating || !other.CompareTag("Player") || targetMaterial == null) return;
 
+        // todo: IAN- add a conditional that checks for another event eg, accurately signing their name (event --- unlockReveal())
         StartCoroutine(AnimateFloatChange()); 
     }
 
