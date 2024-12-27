@@ -13,22 +13,22 @@ public class RevealPath : MonoBehaviour
 
     [Header("Animation Settings")]
     [Tooltip("Value to start animating from.")]
-    public float startValue = 10f;
+    public float startValue = -10f;
 
     [Tooltip("Value to animate to.")]
-    public float endValue = -10f;
+    public float endValue = 10f;
 
     [Tooltip("Duration of the animation in seconds.")]
-    public float animationDuration = 2f;
+    public float animationDuration = 4f;
 
     private bool isAnimating = false;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) //todo: IAN- change this code to implement a different event trigger that calls AnimateFloatChange()
     {
         // Ensure only the player triggers the effect and avoid multiple triggers
         if (isAnimating || !other.CompareTag("Player") || targetMaterial == null) return;
 
-        StartCoroutine(AnimateFloatChange());
+        StartCoroutine(AnimateFloatChange()); 
     }
 
     private System.Collections.IEnumerator AnimateFloatChange()
