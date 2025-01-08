@@ -22,6 +22,23 @@
       },
       "hash": "ee31683a933f606008743210977b04eb2e2ffa3a"
     },
+    "com.soggyinkgames.package-soggyshaders": {
+      "version": "https://github.com/soggyinkgames/package-soggytextures.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "17.0.3",
+        "com.unity.shadergraph": "17.0.3",
+        "com.unity.visualeffectgraph": "17.0.3",
+        "com.unity.postprocessing": "3.2.2",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.burst": "1.8.5",
+        "com.unity.render-pipelines.core": "17.0.3",
+        "com.unity.scriptablebuildpipeline": "1.21.2",
+        "com.unity.textmeshpro": "4.0.2"
+      },
+      "hash": "9ea42ec5cc3e27be327f76c58ac74db9cf68bee7"
+    },
     "com.soggyinkgames.package-soggyterrain": {
       "version": "https://github.com/soggyinkgames/package-soggyterrain.git",
       "depth": 0,
@@ -58,7 +75,7 @@
     },
     "com.unity.burst": {
       "version": "1.8.15",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
@@ -138,6 +155,15 @@
       "depth": 3,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.postprocessing": {
+      "version": "3.4.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.probuilder": {
