@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: com.soggyinkgames
-  productName: yourname
+  productName: yourname.ss12
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -144,9 +144,6 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   - {fileID: 0}
-  - {fileID: -7204961337780963781, guid: ea73047d0afc25b49ad6939c45a821af, type: 2}
-  - {fileID: 5124640519628361782, guid: 130002fbab252b947ab2c3e3f236cafb, type: 2}
-  - {fileID: 11400000, guid: b92c729fc1c9dec42aab0933f0d76670, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -168,7 +165,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.soggyinkgames.yourname
+    Android: com.soggyinkgames.yourname.ss12
     Standalone: com.Unity-Technologies.com.unity.template.urp-blank
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
