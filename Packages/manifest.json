@@ -4,6 +4,7 @@
     "com.soggyinkgames.package-soggyscenes": "https://github.com/soggyinkgames/package-soggyscenes.git",
     "com.soggyinkgames.package-soggyshaders": "https://github.com/soggyinkgames/package-soggytextures.git",
     "com.soggyinkgames.package-soggyterrain": "https://github.com/soggyinkgames/package-soggyterrain.git",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.addressables": "2.1.0",
     "com.unity.ai.navigation": "2.0.0",
     "com.unity.collab-proxy": "2.4.3",
