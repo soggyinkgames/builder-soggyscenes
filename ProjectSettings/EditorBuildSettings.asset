@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/KeyboardDemo.unity
     guid: ad3bc6be3dfc6fe4c93410327d58b369
   - enabled: 0
-    path: Assets/Samples/XR Hands/1.4.1/Gestures/HandGestures.unity
+    path: Assets/Samples/XR Hands/1.4.3/Gestures/HandGestures.unity
     guid: cd792f2302b8b6f4c9f264e2a4503e15
   - enabled: 0
     path: Assets/Scenes/URP_VFX_Learning_Templates.unity
