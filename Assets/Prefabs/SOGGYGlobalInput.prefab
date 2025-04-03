@@ -157,6 +157,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3294437275515662366}
     - target: {fileID: 8437028974135710651, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
+      propertyPath: m_CharacterLimit
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437028974135710651, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_GlobalFontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 1a32a2a50b4b82348a8d25783a53b0ac, type: 2}

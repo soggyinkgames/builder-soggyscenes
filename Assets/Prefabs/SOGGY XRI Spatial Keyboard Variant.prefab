@@ -249,6 +249,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7339749990637630234, guid: 1aaf2dceef22d1147bfc70d706ddd188, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339749990637630234, guid: 1aaf2dceef22d1147bfc70d706ddd188, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -295,6 +299,10 @@ PrefabInstance:
     - target: {fileID: 7339749991237279509, guid: 1aaf2dceef22d1147bfc70d706ddd188, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339749991373199715, guid: 1aaf2dceef22d1147bfc70d706ddd188, type: 3}
+      propertyPath: m_text
+      value: WHAT IS YOUR NAME?
       objectReference: {fileID: 0}
     - target: {fileID: 7339749991373199715, guid: 1aaf2dceef22d1147bfc70d706ddd188, type: 3}
       propertyPath: m_fontColor.b
@@ -443,6 +451,10 @@ PrefabInstance:
     - target: {fileID: 7339749992338619482, guid: 1aaf2dceef22d1147bfc70d706ddd188, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339749992338619482, guid: 1aaf2dceef22d1147bfc70d706ddd188, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8908935604303926136, guid: 1aaf2dceef22d1147bfc70d706ddd188, type: 3}
       propertyPath: m_AnchorMax.y
