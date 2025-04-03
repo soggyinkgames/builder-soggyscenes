@@ -110,11 +110,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974135710645, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1000
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974135710645, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 500
+      value: 5000
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974135710645, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -162,7 +162,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 1a32a2a50b4b82348a8d25783a53b0ac, type: 2}
     - target: {fileID: 8437028974135710651, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_GlobalPointSize
-      value: 99
+      value: 555
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974135710651, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_OnFocusSelectAll
@@ -174,7 +174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974540207066, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_fontSize
-      value: 99
+      value: 555
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974540207066, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_colorMode
@@ -198,7 +198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974540207066, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_fontSizeBase
-      value: 99
+      value: 555
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974540207066, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_sharedMaterial
@@ -278,7 +278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974606165540, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_fontSize
-      value: 99
+      value: 555
       objectReference: {fileID: 0}
     - target: {fileID: 8437028974606165540, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_fontAsset
@@ -306,7 +306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8437028975400972187, guid: 1ff0f8852dba09f44a33463b31d011bc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -22.4
+      value: -22.399902
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
