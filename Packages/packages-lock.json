@@ -22,6 +22,14 @@
       },
       "hash": "ee31683a933f606008743210977b04eb2e2ffa3a"
     },
+    "com.soggyinkgames.package-soggysdfswitcher": {
+      "version": "file:com.soggyinkgames.package-soggysdfswitcher",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.visualeffectgraph": "17.0.3"
+      }
+    },
     "com.soggyinkgames.package-soggyshaders": {
       "version": "https://github.com/soggyinkgames/package-soggytextures.git",
       "depth": 0,
