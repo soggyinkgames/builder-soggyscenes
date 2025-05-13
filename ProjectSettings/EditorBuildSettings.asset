@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
-    path: Assets/Samples/XR Interaction Toolkit/3.0.5/Starter Assets/DemoScene.unity
+    path: Assets/Samples/XR Interaction Toolkit/3.0.8/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   - enabled: 0
     path: Assets/Scenes/SoggyScene2.unity
@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/KeyboardDemo.unity
     guid: ad3bc6be3dfc6fe4c93410327d58b369
   - enabled: 0
-    path: Assets/Samples/XR Hands/1.4.1/Gestures/HandGestures.unity
+    path: Assets/Samples/XR Hands/1.4.3/Gestures/HandGestures.unity
     guid: cd792f2302b8b6f4c9f264e2a4503e15
   - enabled: 0
     path: Assets/Scenes/URP_VFX_Learning_Templates.unity
