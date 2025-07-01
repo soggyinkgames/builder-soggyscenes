@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "builder-soggyscenes.sln"
+    "dotnet.defaultSolution": "fuckyou.sln"
 }
