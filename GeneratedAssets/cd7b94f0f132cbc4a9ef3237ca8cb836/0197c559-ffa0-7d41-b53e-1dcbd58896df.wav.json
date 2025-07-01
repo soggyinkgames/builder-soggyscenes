@@ -1,0 +1,13 @@
+{
+    "asset": "cd7b94f0f132cbc4a9ef3237ca8cb836",
+    "fileName": "0197c559-ffa0-7d41-b53e-1dcbd58896df.wav",
+    "prompt": "crazy man slobbering",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "d394deee9a2c91c5d37735f868b9519d",
+    "duration": 2.638000011444092,
+    "autoTrim": true,
+    "hasReference": true
+}

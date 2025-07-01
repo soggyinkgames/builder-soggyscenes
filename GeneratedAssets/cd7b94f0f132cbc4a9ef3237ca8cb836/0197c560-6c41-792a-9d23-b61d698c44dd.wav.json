@@ -1,0 +1,13 @@
+{
+    "asset": "cd7b94f0f132cbc4a9ef3237ca8cb836",
+    "fileName": "0197c560-6c41-792a-9d23-b61d698c44dd.wav",
+    "prompt": "funny trumpet",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "c27b4601ecc5b9429c0cacdaf75c6820",
+    "duration": 2.638166666030884,
+    "autoTrim": true,
+    "hasReference": true
+}
