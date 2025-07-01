@@ -224,7 +224,7 @@ namespace Dreamteck.Splines
 #endif
             input.transform.localScale = GetScale(input.transform.localScale);
             input.position = GetPosition(input.position);
-            input.velocity = HandleVelocity(input.velocity);
+            input.linearVelocity = HandleVelocity(input.linearVelocity);
             input.rotation = GetRotation(Quaternion.Euler(0f, 0f, input.rotation)).eulerAngles.z;
             if (applyRotationX)
             {
