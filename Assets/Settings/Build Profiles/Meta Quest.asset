@@ -51,7 +51,7 @@ MonoBehaviour:
     - line: '|   useOnDemandResources: 0'
     - line: '|   accelerometerFrequency: 60'
     - line: '|   companyName: com.soggyinkgames'
-    - line: '|   productName: yourname.handscreenshots'
+    - line: '|   productName: yourname.soggysounds'
     - line: '|   defaultCursor: {instanceID: 0}'
     - line: '|   cursorHotspot: {x: 0, y: 0}'
     - line: '|   m_SplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 1}'
@@ -191,6 +191,12 @@ MonoBehaviour:
     - line: '|   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b,
         type: 3}'
     - line: '|   - {instanceID: 0}'
+    - line: '|   - {fileID: 11400000, guid: b92c729fc1c9dec42aab0933f0d76670, type:
+        2}'
+    - line: '|   - {fileID: -7204961337780963781, guid: ea73047d0afc25b49ad6939c45a821af,
+        type: 2}'
+    - line: '|   - {fileID: 5124640519628361782, guid: 130002fbab252b947ab2c3e3f236cafb,
+        type: 2}'
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'
     - line: '|   m_HolographicPauseOnTrackingLoss: 1'
@@ -212,7 +218,7 @@ MonoBehaviour:
     - line: '|   androidMaxAspectRatio: 2.1'
     - line: '|   androidMinAspectRatio: 1'
     - line: '|   applicationIdentifier:'
-    - line: '|     Android: com.com.soggyinkgames.yourname.handscreenshots'
+    - line: '|     Android: com.com.soggyinkgames.yourname.soggysounds'
     - line: '|     Standalone: com.Unity-Technologies.com.unity.template.urp-blank'
     - line: '|     iPhone: com.Unity-Technologies.com.unity.template.urp-blank'
     - line: '|   buildNumber:'
