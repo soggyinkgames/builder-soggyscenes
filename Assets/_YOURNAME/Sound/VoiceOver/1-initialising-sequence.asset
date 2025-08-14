@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c92442beef592644f8f0fdce20aaee80, type: 3}
   m_Name: 1-initialising-sequence
   m_EditorClassIdentifier: Assembly-CSharp::AudioScriptableObject
-  name: initialising-sequence
+  id: 1-initialising-sequence
   clip: {fileID: 8300000, guid: 3488399e96a1ca945813e5ec0d418cfb, type: 3}
   mixerGroup: {fileID: 0}
   volume: 1

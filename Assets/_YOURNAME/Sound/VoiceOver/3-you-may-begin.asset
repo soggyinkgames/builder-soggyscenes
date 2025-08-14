@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c92442beef592644f8f0fdce20aaee80, type: 3}
   m_Name: 3-you-may-begin
   m_EditorClassIdentifier: Assembly-CSharp::AudioScriptableObject
-  name: you-may-begin
+  id: you-may-begin
   clip: {fileID: 8300000, guid: c5ec98edad29f6d4bb4ee116ac384e93, type: 3}
   mixerGroup: {fileID: 0}
   volume: 1
