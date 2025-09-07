@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054517, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054519, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Name
@@ -1883,7 +1883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054517, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054519, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Name
@@ -4417,20 +4417,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf93899325d5df74eb9176e097ee3d4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Hands.Samples.Gestures::UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture
-  m_HandTrackingEvents: {fileID: 0}
-  m_HandShapeOrPose: {fileID: 0}
+  m_HandTrackingEvents: {fileID: 1667933543}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 24d7ff562fdd6d44ebd550919936e79e, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 0}
   m_GesturePerformed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2806828761405411336}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_GestureEnded:
     m_PersistentCalls:
       m_Calls: []
   m_MinimumHoldTime: 0.2
   m_GestureDetectionInterval: 0.1
   m_StaticGestures:
-  - {fileID: 0}
+  - {fileID: 866131126}
+  - {fileID: 987813759}
 --- !u!1 &878494267
 GameObject:
   m_ObjectHideFlags: 0
@@ -5726,7 +5739,7 @@ VisualEffect:
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: 640356b69024e4e4e859a2e2cc8bdd6a, type: 3}
   m_InitialEventName: StartAuslan
-  m_InitialEventNameOverriden: 1
+  m_InitialEventNameOverriden: 0
   m_StartSeed: 0
   m_ResetSeedOnPlay: 0
   m_AllowInstancing: 1
@@ -5843,7 +5856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054517, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054519, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Name
@@ -6279,7 +6292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054517, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054519, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Name
@@ -6666,7 +6679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054517, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054519, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Name
@@ -12369,7 +12382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054517, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5357395431891054519, guid: 2733348fb08e4e247bf467c06bb3be5c, type: 3}
       propertyPath: m_Name
@@ -12629,7 +12642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1616122870
 Transform:
   m_ObjectHideFlags: 0
@@ -13956,6 +13969,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e25bfecf167752541a5ef449c5d37109, type: 3}
+--- !u!1 &2806828761405411336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039962775295039911, guid: e25bfecf167752541a5ef449c5d37109, type: 3}
+  m_PrefabInstance: {fileID: 2806828761405411335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
