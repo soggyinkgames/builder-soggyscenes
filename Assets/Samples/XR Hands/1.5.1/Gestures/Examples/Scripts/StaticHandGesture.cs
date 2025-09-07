@@ -2,6 +2,7 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.XR.Hands.Gestures;
 
+
 namespace UnityEngine.XR.Hands.Samples.GestureSample
 {
     /// <summary>
@@ -53,6 +54,7 @@ namespace UnityEngine.XR.Hands.Samples.GestureSample
         float m_HoldStartTime;
         Color m_BackgroundDefaultColor;
         Color m_BackgroundHiglightColor = new Color(0f, 0.627451f, 1f);
+
 
         /// <summary>
         /// The hand tracking events component to subscribe to receive updated joint data to be used for gesture detection.
@@ -128,7 +130,10 @@ namespace UnityEngine.XR.Hands.Samples.GestureSample
 
         void Awake()
         {
-            m_BackgroundDefaultColor = m_Background.color;
+            if (m_Background)
+            {
+                m_BackgroundDefaultColor = m_Background.color;
+            }
         }
 
         void OnEnable()
@@ -145,6 +150,7 @@ namespace UnityEngine.XR.Hands.Samples.GestureSample
 
         void OnJointsUpdated(XRHandJointsUpdatedEventArgs eventArgs)
         {
+
             if (!isActiveAndEnabled || Time.timeSinceLevelLoad < m_TimeOfLastConditionCheck + m_GestureDetectionInterval)
                 return;
 
@@ -161,8 +167,12 @@ namespace UnityEngine.XR.Hands.Samples.GestureSample
             {
                 m_PerformedTriggered = false;
                 m_GestureEnded?.Invoke();
-                m_Background.color = m_BackgroundDefaultColor;
+                if (m_Background)
+                {
+                    m_Background.color = m_BackgroundDefaultColor;
+                }
             }
+
 
             m_WasDetected = detected;
 
@@ -173,7 +183,10 @@ namespace UnityEngine.XR.Hands.Samples.GestureSample
                 {
                     m_GesturePerformed?.Invoke();
                     m_PerformedTriggered = true;
-                    m_Background.color = m_BackgroundHiglightColor;
+                    if (m_Background)
+                    {
+                        m_Background.color = m_BackgroundHiglightColor;
+                    }
                 }
             }
 
