@@ -11,14 +11,14 @@ public class HandsTouchingEvent : MonoBehaviour
     [Tooltip("Edge-to-edge gap allowed. Set 0 to trigger on overlap/touching. " +
              "Effective condition is: centerDistance <= (leftRadius + rightRadius + triggerDistance).")]
     [Min(0f)]
-    [SerializeField] float triggerDistance = 0.0f;
+    [SerializeField] float triggerDistance = 0.002f;
 
     [Tooltip("If true, compute radii from colliders; otherwise use the manual radii below.")]
     [SerializeField] bool autoRadiiFromColliders = true;
 
     [Tooltip("Manual radius (meters) for left/right when autoRadiiFromColliders is false, or as fallback if no collider exists.")]
-    [Min(0f)][SerializeField] float leftRadius = 0.1f;
-    [Min(0f)][SerializeField] float rightRadius = 0.1f;
+    [Min(0f)][SerializeField] float leftRadius = 0.003f;
+    [Min(0f)][SerializeField] float rightRadius = 0.003f;
 
     [Header("Events")]
     public UnityEvent OnWithinDistance; // Editable in Inspector
