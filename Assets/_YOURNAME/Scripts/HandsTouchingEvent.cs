@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.XR.Hands.Samples.GestureSample; //change when you make your own copy of script
 
 public class HandsTouchingEvent : MonoBehaviour
 {
@@ -7,9 +8,15 @@ public class HandsTouchingEvent : MonoBehaviour
     public Transform leftHandArea; // First object
     public Transform rightHandArea; // Second object
 
+    [Tooltip("Static hand gesture required for left hand.")]
+    public StaticHandGesture leftHandGesture;
+
+    [Tooltip("Static hand gesture required for right hand.")]
+    public StaticHandGesture rightHandGesture;
+
     [Header("Distance Settings")]
     [Tooltip("Edge-to-edge gap allowed. Set 0 to trigger on overlap/touching. " +
-             "Effective condition is: centerDistance <= (leftRadius + rightRadius + triggerDistance).")]
+            "Effective condition is: centerDistance <= (leftRadius + rightRadius + triggerDistance).")]
     [Min(0f)]
     [SerializeField] float triggerDistance = 0.002f;
 
@@ -44,6 +51,18 @@ public class HandsTouchingEvent : MonoBehaviour
     {
         if (!active) return;
         if (leftHandArea == null || rightHandArea == null) return;
+        if (leftHandGesture == null || rightHandGesture == null) return;
+
+        // ✅ Require both gestures to be performed before distance check
+        if (!leftHandGesture.IsPerformed || !rightHandGesture.IsPerformed)
+        {
+            if (isInside)
+            {
+                OnOutsideDistance?.Invoke();
+                isInside = false;
+            }
+            return;
+        }
 
         // Get effective radii (auto from colliders or manual)
         float rA = GetEffectiveRadius(leftHandArea, leftRadius);
