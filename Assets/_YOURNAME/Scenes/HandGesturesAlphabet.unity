@@ -374,7 +374,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 30705934d8f0c3941b69a74490855138, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 8cc8d6019c36b284ab56e26c27999913, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 11959705}
   m_GesturePerformed:
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 9d0c2f5642cd1434c81ac48cade230aa, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 62cf38e8761c2bf42849127a714200f0, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 27161855}
   m_GesturePerformed:
@@ -943,7 +943,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a15124decde12dd4381dd9230b935d48, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: a15124decde12dd4381dd9230b935d48, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -4046,7 +4046,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1b92e827139383b498da83adc7331df4, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 1b92e827139383b498da83adc7331df4, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -4191,7 +4191,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ebcffef31d8129c4a86f2b462d88fd7e, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: ebcffef31d8129c4a86f2b462d88fd7e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -4594,7 +4594,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6ffe36ab5168f4d4f8d914c0c9832b67, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 6ffe36ab5168f4d4f8d914c0c9832b67, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -4953,7 +4953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 71d5b40b22b50344aa6dc3552c5ae71d, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 8235674e5ddce7442b9f691e90e3c6df, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 349331242}
   m_GesturePerformed:
@@ -5083,7 +5083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 71d5b40b22b50344aa6dc3552c5ae71d, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 253e20052729a38498cebd309716c2a1, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 357354264}
   m_GesturePerformed:
@@ -5360,7 +5360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 989bb203ebca9c443a1e455cfa15d349, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 59288a890abc50d4787888b9a0b58a16, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 386462063}
   m_GesturePerformed:
@@ -5991,7 +5991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 24d7ff562fdd6d44ebd550919936e79e, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 50c6d12609b100948acbcc42ee6609da, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 414454829}
   m_GesturePerformed:
@@ -6726,7 +6726,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 06bc7141af4543642a7e87f90bae7bb9, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 06bc7141af4543642a7e87f90bae7bb9, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -7115,7 +7115,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d364cc62c3221db468a1ec9407b0708f, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: d364cc62c3221db468a1ec9407b0708f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -8952,7 +8952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 30705934d8f0c3941b69a74490855138, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 1de3a6e7f60ebb44680d80bc11905450, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 655893527}
   m_GesturePerformed:
@@ -9084,7 +9084,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 69d7c9fbdcb63ce49b8077c34d8bdfaf, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 69d7c9fbdcb63ce49b8077c34d8bdfaf, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -9293,7 +9293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 5ce720f3c768e854e8cc87eab123b9e5, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 4c463579b839d8d44b194f130247eb69, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 674631302}
   m_GesturePerformed:
@@ -10015,7 +10015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 3cc1f2d394ed04046b2fd30e182ee306, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 20953488e43d18d4a9d2c457ab664b54, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 770389154}
   m_GesturePerformed:
@@ -10420,7 +10420,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 187f83bf71399164698a9eedc8eef967, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 187f83bf71399164698a9eedc8eef967, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -11077,7 +11077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: f679f9a5f90af274698de36f3766fc1f, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: b4504b294c8f78041a6cce3b4885ef2c, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 876289212}
   m_GesturePerformed:
@@ -12111,7 +12111,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bb7e9d7ffb8c5e14fbf02b33eeb07f6b, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: bb7e9d7ffb8c5e14fbf02b33eeb07f6b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -12230,7 +12230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: fc84bec2769c2864aaffd7030c3a73f5, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 171a047b4e0e96944b052cee4d0a62f7, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 981234281}
   m_GesturePerformed:
@@ -12415,7 +12415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 3e61f69f677240d43bcc35879bac62ea, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: b2240ab5fe3b54642bdb27a19e84ab23, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1012753333}
   m_GesturePerformed:
@@ -12731,7 +12731,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fb92d504b8c44db4e809c9af89a75323, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: fb92d504b8c44db4e809c9af89a75323, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -13641,7 +13641,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 57d1c7dafc640e446ac72137bf6ce2ca, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 57d1c7dafc640e446ac72137bf6ce2ca, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -13786,7 +13786,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3ffea4ba4c3ba5e499b1b6cdca88e7bf, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 3ffea4ba4c3ba5e499b1b6cdca88e7bf, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -14593,7 +14593,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b99769d98653b714aba42119b4f99834, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: b99769d98653b714aba42119b4f99834, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -14833,7 +14833,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3bfa8510bd5c602458991fc6c42dc46f, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 3bfa8510bd5c602458991fc6c42dc46f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -15003,7 +15003,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 25dc7bd980d2ae74f84e037b8cebd537, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 25dc7bd980d2ae74f84e037b8cebd537, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -15665,7 +15665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: f284faeec328c0c46bbd03538a3a993d, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 7d6f9ea15fad4a84c8d97c8f3778f7ff, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1172621890}
   m_GesturePerformed:
@@ -16536,7 +16536,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fd92648d3d942d64d90d75a0cd77f42b, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: fd92648d3d942d64d90d75a0cd77f42b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -16653,7 +16653,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 57db341e0ed5ffe4d83f25b29c0346f4, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 57db341e0ed5ffe4d83f25b29c0346f4, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -17086,7 +17086,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d21d40631f8f7a247bd1d81708a5cf23, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: d21d40631f8f7a247bd1d81708a5cf23, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -17339,7 +17339,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: de7eb6ca3aee2bf4c84ce6403c1284fa, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: de7eb6ca3aee2bf4c84ce6403c1284fa, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -17473,7 +17473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 24d7ff562fdd6d44ebd550919936e79e, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 9fd9f99ae24b3b04780c153f5d233dbd, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1334614689}
   m_GesturePerformed:
@@ -17608,7 +17608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: f679f9a5f90af274698de36f3766fc1f, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 46a40747902be1741b088a080b06d6f2, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1341251277}
   m_GesturePerformed:
@@ -17753,7 +17753,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 967177bf27addf44abb8a2feb6418668, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 967177bf27addf44abb8a2feb6418668, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -19349,7 +19349,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7ee5fef71e8f5e84cb0e6ba469b86060, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 7ee5fef71e8f5e84cb0e6ba469b86060, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -19539,7 +19539,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3b1990d083065e9438d4992e4943de1c, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 3b1990d083065e9438d4992e4943de1c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -20196,7 +20196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 3e61f69f677240d43bcc35879bac62ea, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 7899e8819b6fb224ab13e6ebae14e602, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1501943154}
   m_GesturePerformed:
@@ -27947,7 +27947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: ed4bd709a6812ab4598c9c897ee66222, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: e0a4e062a0d693b4d8e95cea58549d97, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1612783924}
   m_GesturePerformed:
@@ -28100,7 +28100,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2bc13816f9814b44387b53eb87b0dd15, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 2bc13816f9814b44387b53eb87b0dd15, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -28913,7 +28913,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 59ea4960d143dbd42bc10bb5469f0031, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 59ea4960d143dbd42bc10bb5469f0031, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -30449,7 +30449,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6f77edcf90ca9024f95ef35daf081a3c, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 6f77edcf90ca9024f95ef35daf081a3c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -30797,7 +30797,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8830a39e7d19a3247b92c10498541620, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 8830a39e7d19a3247b92c10498541620, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -30942,7 +30942,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cbbcc66746ff3f646ab478b0f8933d49, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: cbbcc66746ff3f646ab478b0f8933d49, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -31121,7 +31121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: f284faeec328c0c46bbd03538a3a993d, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: cd94b58c89d61514d8b661d705a0f073, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1883903547}
   m_GesturePerformed:
@@ -31327,7 +31327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: f679f9a5f90af274698de36f3766fc1f, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: d0cb07ccbe6b2e74a870f4fc42249af9, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1889065906}
   m_GesturePerformed:
@@ -32385,7 +32385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 506a60b3fb973914d89e6e0d9f41b074, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 3ef285594a3a6c64eb7cb4d3fd2cd058, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1952288520}
   m_GesturePerformed:
@@ -32966,7 +32966,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a4362876751ade441b9a59f86e57fc0a, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: a4362876751ade441b9a59f86e57fc0a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -33921,7 +33921,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3c30dab599faa134eb95635be8759163, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 3c30dab599faa134eb95635be8759163, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -34040,7 +34040,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: f284faeec328c0c46bbd03538a3a993d, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 3f6bc717a59e99040a77d4f51e2dd4b8, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 2075847790}
   m_GesturePerformed:
@@ -34312,7 +34312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 30705934d8f0c3941b69a74490855138, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: ee2ba076d6c9d1246a234d76ec234afa, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 2097969076}
   m_GesturePerformed:
