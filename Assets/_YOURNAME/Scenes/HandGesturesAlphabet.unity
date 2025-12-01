@@ -1080,8 +1080,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441851}
+  rightHandArea: {fileID: 382544611}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -4090,8 +4090,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441851}
+  rightHandArea: {fileID: 402783665}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -4380,8 +4380,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441853}
+  rightHandArea: {fileID: 382544611}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -4638,8 +4638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441851}
+  rightHandArea: {fileID: 382544611}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -5962,6 +5962,31 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f7511fbc40ae7a4b89c3298a3de199d, type: 3}
+--- !u!4 &402783664 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6226456670447996205, guid: 3f7511fbc40ae7a4b89c3298a3de199d, type: 3}
+  m_PrefabInstance: {fileID: 402783663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &402783665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7356241863038367081, guid: 3f7511fbc40ae7a4b89c3298a3de199d, type: 3}
+  m_PrefabInstance: {fileID: 402783663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &402783666 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2168581177090073220, guid: 3f7511fbc40ae7a4b89c3298a3de199d, type: 3}
+  m_PrefabInstance: {fileID: 402783663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &402783667 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4158396131418465098, guid: 3f7511fbc40ae7a4b89c3298a3de199d, type: 3}
+  m_PrefabInstance: {fileID: 402783663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &402783668 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1590987666903257055, guid: 3f7511fbc40ae7a4b89c3298a3de199d, type: 3}
+  m_PrefabInstance: {fileID: 402783663}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &411202205
 GameObject:
   m_ObjectHideFlags: 0
@@ -6798,6 +6823,11 @@ MonoBehaviour:
   - {fileID: 1702320946}
   - {fileID: 539006075}
   - {fileID: 1105721886}
+--- !u!4 &456446600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5647312111078691803, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1048441849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &458506620
 GameObject:
   m_ObjectHideFlags: 0
@@ -6903,8 +6933,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1841781224}
+  rightHandArea: {fileID: 402783666}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -7292,8 +7322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441852}
+  rightHandArea: {fileID: 382544611}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -9337,8 +9367,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 789967711}
+  rightHandArea: {fileID: 1456121783}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -10730,8 +10760,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441851}
+  rightHandArea: {fileID: 402783668}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -12796,6 +12826,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994873608}
   m_CullTransparentMesh: 1
+--- !u!4 &1009954446 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9150967386063312380, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1048441849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1012753331
 GameObject:
   m_ObjectHideFlags: 0
@@ -13136,8 +13171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 789967711}
+  rightHandArea: {fileID: 1456121783}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -13689,6 +13724,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 141466980049140221, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
   m_PrefabInstance: {fileID: 1048441849}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1048441851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2733093729761800249, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1048441849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1048441852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6241780104622499675, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1048441849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1048441853 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4678747065800207856, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1048441849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1048441854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4762083549225478452, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1048441849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1070200415
 GameObject:
   m_ObjectHideFlags: 0
@@ -14060,7 +14115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
+  leftHandArea: {fileID: 1048441854}
   rightHandArea: {fileID: 2018292031}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
@@ -15031,8 +15086,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1009954446}
+  rightHandArea: {fileID: 402783667}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -17032,7 +17087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  rightHandArea: {fileID: 402783666}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -17600,8 +17655,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 456446600}
+  rightHandArea: {fileID: 402783665}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -17853,8 +17908,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441851}
+  rightHandArea: {fileID: 402783665}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -19939,8 +19994,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441852}
+  rightHandArea: {fileID: 382544611}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -28107,6 +28162,11 @@ MonoBehaviour:
   - {fileID: 1702320946}
   - {fileID: 539006075}
   - {fileID: 1105721886}
+--- !u!4 &1579952661 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6191545133100169418, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1048441849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1584341661
 GameObject:
   m_ObjectHideFlags: 0
@@ -28785,8 +28845,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1579952661}
+  rightHandArea: {fileID: 382544611}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -29762,8 +29822,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441851}
+  rightHandArea: {fileID: 402783664}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -31305,6 +31365,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &1841781224 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5200181528285594001, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1048441849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1850513772
 GameObject:
   m_ObjectHideFlags: 0
@@ -31520,8 +31585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1048441851}
+  rightHandArea: {fileID: 402783666}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -33784,8 +33849,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e002fb6a57a2f40950368f5329f16c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
-  leftHandArea: {fileID: 748332224}
-  rightHandArea: {fileID: 2018292031}
+  leftHandArea: {fileID: 1135108481}
+  rightHandArea: {fileID: 1339026834}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
