@@ -127,6 +127,7 @@ namespace UnityEngine.XR.Hands.Samples.GestureSample
             get => m_GestureDetectionInterval;
             set => m_GestureDetectionInterval = value;
         }
+        public bool IsPerformed { get; set; }
 
         void Awake()
         {

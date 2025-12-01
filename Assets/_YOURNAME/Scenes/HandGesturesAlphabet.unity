@@ -1082,6 +1082,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441851}
   rightHandArea: {fileID: 382544611}
+  leftHandGesture: {fileID: 2006458051}
+  rightHandGesture: {fileID: 959536358}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -1845,7 +1847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Hands.Samples.Gestures::UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture
   m_HandTrackingEvents: {fileID: 6369870}
-  m_HandShapeOrPose: {fileID: 11400000, guid: fc84bec2769c2864aaffd7030c3a73f5, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 7d6f9ea15fad4a84c8d97c8f3778f7ff, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 0}
   m_GesturePerformed:
@@ -2471,7 +2473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: ed4bd709a6812ab4598c9c897ee66222, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 71d5b40b22b50344aa6dc3552c5ae71d, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 147957949}
   m_GesturePerformed:
@@ -3144,7 +3146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Hands.Samples.Gestures::UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture
   m_HandTrackingEvents: {fileID: 6369870}
-  m_HandShapeOrPose: {fileID: 11400000, guid: fc84bec2769c2864aaffd7030c3a73f5, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 171a047b4e0e96944b052cee4d0a62f7, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 0}
   m_GesturePerformed:
@@ -4092,6 +4094,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441851}
   rightHandArea: {fileID: 402783665}
+  leftHandGesture: {fileID: 1117442056}
+  rightHandGesture: {fileID: 75475279}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -4382,6 +4386,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441853}
   rightHandArea: {fileID: 382544611}
+  leftHandGesture: {fileID: 175580602}
+  rightHandGesture: {fileID: 739770046}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -4640,6 +4646,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441851}
   rightHandArea: {fileID: 382544611}
+  leftHandGesture: {fileID: 788056339}
+  rightHandGesture: {fileID: 918925317}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -6022,7 +6030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 9d0c2f5642cd1434c81ac48cade230aa, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 3cc1f2d394ed04046b2fd30e182ee306, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 411202207}
   m_GesturePerformed:
@@ -6935,6 +6943,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1841781224}
   rightHandArea: {fileID: 402783666}
+  leftHandGesture: {fileID: 1799022317}
+  rightHandGesture: {fileID: 539006075}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -7324,6 +7334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441852}
   rightHandArea: {fileID: 382544611}
+  leftHandGesture: {fileID: 1114082526}
+  rightHandGesture: {fileID: 1584341663}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -7502,7 +7514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: ed4bd709a6812ab4598c9c897ee66222, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 71d5b40b22b50344aa6dc3552c5ae71d, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 513352657}
   m_GesturePerformed:
@@ -7772,7 +7784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Hands.Samples.Gestures::UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture
   m_HandTrackingEvents: {fileID: 6369870}
-  m_HandShapeOrPose: {fileID: 11400000, guid: fc84bec2769c2864aaffd7030c3a73f5, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 59288a890abc50d4787888b9a0b58a16, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 0}
   m_GesturePerformed:
@@ -8870,7 +8882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: fc84bec2769c2864aaffd7030c3a73f5, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 3cc1f2d394ed04046b2fd30e182ee306, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 635728822}
   m_GesturePerformed:
@@ -9369,6 +9381,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 789967711}
   rightHandArea: {fileID: 1456121783}
+  leftHandGesture: {fileID: 877370985}
+  rightHandGesture: {fileID: 1702320946}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -9892,7 +9906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 3e61f69f677240d43bcc35879bac62ea, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 7fa58d96e528fc3469e63ba0d2ac7ba3, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 735685193}
   m_GesturePerformed:
@@ -10012,7 +10026,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Hands.Samples.Gestures::UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture
   m_HandTrackingEvents: {fileID: 6369870}
-  m_HandShapeOrPose: {fileID: 11400000, guid: fc84bec2769c2864aaffd7030c3a73f5, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: b4504b294c8f78041a6cce3b4885ef2c, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 0}
   m_GesturePerformed:
@@ -10762,6 +10776,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441851}
   rightHandArea: {fileID: 402783668}
+  leftHandGesture: {fileID: 63315905}
+  rightHandGesture: {fileID: 1105721886}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -11975,11 +11991,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e9813c68d7d6f44282ace8bd2d1fd46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UseOptimizedControls: 0
-  m_MetaQuestLeftHandMesh: {fileID: 0}
-  m_MetaQuestRightHandMesh: {fileID: 0}
-  m_AndroidXRLeftHandMesh: {fileID: 0}
-  m_AndroidXRRightHandMesh: {fileID: 0}
+  m_UseOptimizedControls: 1
+  m_MetaQuestLeftHandMesh: {fileID: 1089422787}
+  m_MetaQuestRightHandMesh: {fileID: 1605323207}
+  m_AndroidXRLeftHandMesh: {fileID: 1089422787}
+  m_AndroidXRRightHandMesh: {fileID: 1605323207}
   m_HandMeshMaterial: {fileID: 2100000, guid: f97ffc034f0e95e43ab2f8644fd74d73, type: 2}
   m_DrawMeshes: 1
   m_DebugDrawPrefab: {fileID: 6507399986997092475, guid: 254b742d65a15d14b9df756ae77de868, type: 3}
@@ -12491,6 +12507,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1499626490}
   rightHandArea: {fileID: 382544611}
+  leftHandGesture: {fileID: 1476081963}
+  rightHandGesture: {fileID: 416954004}
   triggerDistance: 0.002
   autoRadiiFromColliders: 1
   leftRadius: 0.003
@@ -13173,6 +13191,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 789967711}
   rightHandArea: {fileID: 1456121783}
+  leftHandGesture: {fileID: 1788650064}
+  rightHandGesture: {fileID: 944104267}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -13714,6 +13734,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Left Hand Tracking
       objectReference: {fileID: 0}
+    - target: {fileID: 1785337192100647894, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+      propertyPath: m_Quality
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785337192100647894, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 613690cd962241049a0ec289a6ff835e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13918,7 +13946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Hands.Samples.Gestures::UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture
   m_HandTrackingEvents: {fileID: 396777769}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 30705934d8f0c3941b69a74490855138, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 7fa58d96e528fc3469e63ba0d2ac7ba3, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 0}
   m_GesturePerformed:
@@ -13979,6 +14007,11 @@ MonoBehaviour:
   - {fileID: 877370985}
   - {fileID: 1799022317}
   - {fileID: 63315905}
+--- !u!1 &1089422787 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4985677829560647913, guid: b3ed8a0a703ebd34a9e44ed3d9f1fcf6, type: 3}
+  m_PrefabInstance: {fileID: 1048441849}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1089909075
 GameObject:
   m_ObjectHideFlags: 0
@@ -14117,6 +14150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441854}
   rightHandArea: {fileID: 2018292031}
+  leftHandGesture: {fileID: 1178113204}
+  rightHandGesture: {fileID: 1089909077}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -14407,6 +14442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 2095032858}
   rightHandArea: {fileID: 1339026834}
+  leftHandGesture: {fileID: 621675997}
+  rightHandGesture: {fileID: 62635026}
   triggerDistance: 0.002
   autoRadiiFromColliders: 1
   leftRadius: 0.003
@@ -14612,7 +14649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: f284faeec328c0c46bbd03538a3a993d, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 3cc1f2d394ed04046b2fd30e182ee306, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1106496318}
   m_GesturePerformed:
@@ -15088,6 +15125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1009954446}
   rightHandArea: {fileID: 402783667}
+  leftHandGesture: {fileID: 1894346663}
+  rightHandGesture: {fileID: 451726143}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -15488,6 +15527,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1499626490}
   rightHandArea: {fileID: 1339026834}
+  leftHandGesture: {fileID: 1280500575}
+  rightHandGesture: {fileID: 549481813}
   triggerDistance: 0.002
   autoRadiiFromColliders: 1
   leftRadius: 0.003
@@ -15883,7 +15924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: f284faeec328c0c46bbd03538a3a993d, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 3cc1f2d394ed04046b2fd30e182ee306, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1152762358}
   m_GesturePerformed:
@@ -17088,6 +17129,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 748332224}
   rightHandArea: {fileID: 402783666}
+  leftHandGesture: {fileID: 523144096}
+  rightHandGesture: {fileID: 1675700334}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -17657,6 +17700,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 456446600}
   rightHandArea: {fileID: 402783665}
+  leftHandGesture: {fileID: 1424504648}
+  rightHandGesture: {fileID: 1555664225}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -17910,6 +17955,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441851}
   rightHandArea: {fileID: 402783665}
+  leftHandGesture: {fileID: 1850513774}
+  rightHandGesture: {fileID: 521564798}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -18350,6 +18397,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 748332224}
   rightHandArea: {fileID: 2018292031}
+  leftHandGesture: {fileID: 39458856}
+  rightHandGesture: {fileID: 1932107505}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -19889,7 +19938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 30705934d8f0c3941b69a74490855138, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 71d5b40b22b50344aa6dc3552c5ae71d, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1439552500}
   m_GesturePerformed:
@@ -19996,6 +20045,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441852}
   rightHandArea: {fileID: 382544611}
+  leftHandGesture: {fileID: 2115130877}
+  rightHandGesture: {fileID: 645714191}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -20174,6 +20225,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 789967711}
   rightHandArea: {fileID: 1456121783}
+  leftHandGesture: {fileID: 436646604}
+  rightHandGesture: {fileID: 632252297}
   triggerDistance: 0.002
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -20369,7 +20422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: f679f9a5f90af274698de36f3766fc1f, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 3cc1f2d394ed04046b2fd30e182ee306, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1465597228}
   m_GesturePerformed:
@@ -27995,7 +28048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Hands.Samples.Gestures::UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture
   m_HandTrackingEvents: {fileID: 6369870}
-  m_HandShapeOrPose: {fileID: 11400000, guid: fc84bec2769c2864aaffd7030c3a73f5, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 46a40747902be1741b088a080b06d6f2, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 0}
   m_GesturePerformed:
@@ -28687,6 +28740,11 @@ RectTransform:
   m_AnchoredPosition: {x: 37, y: 592}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1605323207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5558430574972630377, guid: 3f7511fbc40ae7a4b89c3298a3de199d, type: 3}
+  m_PrefabInstance: {fileID: 402783663}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1612783922
 GameObject:
   m_ObjectHideFlags: 0
@@ -28847,6 +28905,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1579952661}
   rightHandArea: {fileID: 382544611}
+  leftHandGesture: {fileID: 1089231157}
+  rightHandGesture: {fileID: 817140894}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -29046,7 +29106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311663}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 30705934d8f0c3941b69a74490855138, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 71d5b40b22b50344aa6dc3552c5ae71d, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1630197071}
   m_GesturePerformed:
@@ -29377,7 +29437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Hands.Samples.Gestures::UnityEngine.XR.Hands.Samples.GestureSample.StaticHandGesture
   m_HandTrackingEvents: {fileID: 6369870}
-  m_HandShapeOrPose: {fileID: 11400000, guid: fc84bec2769c2864aaffd7030c3a73f5, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 3f6bc717a59e99040a77d4f51e2dd4b8, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 0}
   m_GesturePerformed:
@@ -29824,6 +29884,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441851}
   rightHandArea: {fileID: 402783664}
+  leftHandGesture: {fileID: 713274481}
+  rightHandGesture: {fileID: 1954951327}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -31587,6 +31649,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1048441851}
   rightHandArea: {fileID: 402783666}
+  leftHandGesture: {fileID: 1777040621}
+  rightHandGesture: {fileID: 1551744407}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -31877,6 +31941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1135108481}
   rightHandArea: {fileID: 382544611}
+  leftHandGesture: {fileID: 1363897562}
+  rightHandGesture: {fileID: 265304004}
   triggerDistance: 0.002
   autoRadiiFromColliders: 1
   leftRadius: 0.003
@@ -33511,7 +33577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 506a60b3fb973914d89e6e0d9f41b074, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: a6603403f3aed6944a936e4537d8432f, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 1957502503}
   m_GesturePerformed:
@@ -33851,6 +33917,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HandsTouchingEvent
   leftHandArea: {fileID: 1135108481}
   rightHandArea: {fileID: 1339026834}
+  leftHandGesture: {fileID: 1133591323}
+  rightHandGesture: {fileID: 207229142}
   triggerDistance: 0.004
   autoRadiiFromColliders: 1
   leftRadius: 0.004
@@ -34560,15 +34628,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4612018718588040183, guid: d15a810bf09004041928872433b6021c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.329
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 4612018718588040183, guid: d15a810bf09004041928872433b6021c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.045
+      value: -0.044
       objectReference: {fileID: 0}
     - target: {fileID: 4612018718588040183, guid: d15a810bf09004041928872433b6021c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.018
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 4612018718588040183, guid: d15a810bf09004041928872433b6021c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34776,7 +34844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HandTrackingEvents: {fileID: 1533311666}
-  m_HandShapeOrPose: {fileID: 11400000, guid: 989bb203ebca9c443a1e455cfa15d349, type: 2}
+  m_HandShapeOrPose: {fileID: 11400000, guid: 3cc1f2d394ed04046b2fd30e182ee306, type: 2}
   m_TargetTransform: {fileID: 0}
   m_Background: {fileID: 2047987234}
   m_GesturePerformed:
