@@ -1,10 +1,19 @@
 # ninja log v5
 100	13797	7862988047691749	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2daf22c27a2b17c1
 75	14444	7862988047615331	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	783cf763688f891a
-196	14460	7862988049704372	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	fa632ecbea90ffda
-48	14481	7862988052092259	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	ae1f0eeb1368accc
+16744	17174	7862988083032490	C:/Users/Anai Araya/SOGGYINKGAMES/GAMES/builder-soggyscenes/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1c1c4n3v/obj/arm64-v8a/libgame.so	80e3ec8818e9ee8f
 23	14898	7862988059582262	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7dfb762f419720db
+196	14460	7862988049704372	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	fa632ecbea90ffda
 153	16451	7862988075241441	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	7f86513d7382c558
+48	14481	7862988052092259	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	ae1f0eeb1368accc
 128	16476	7862988075480993	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	f4db805983e5bea
 3	16743	7862988078537188	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e61555f2aec68e5
-16744	17174	7862988083032490	C:/Users/Anai Araya/SOGGYINKGAMES/GAMES/builder-soggyscenes/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1c1c4n3v/obj/arm64-v8a/libgame.so	80e3ec8818e9ee8f
+21	6746	7863133973311418	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	783cf763688f891a
+82	6760	7863133973407335	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2daf22c27a2b17c1
+43	6906	7863133974465284	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	ae1f0eeb1368accc
+101	7008	7863133975393313	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	fa632ecbea90ffda
+64	7383	7863133979250522	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	7dfb762f419720db
+136	9027	7863133996222437	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	f4db805983e5bea
+1	9365	7863133999497266	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	e61555f2aec68e5
+162	9543	7863134001337442	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	7f86513d7382c558
+9545	10148	7863134007488837	C:/Users/Anai Araya/SOGGYINKGAMES/GAMES/builder-soggyscenes/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1c1c4n3v/obj/arm64-v8a/libgame.so	80e3ec8818e9ee8f
