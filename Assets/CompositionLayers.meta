@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/CompositionLayers.meta
 guid: da20031e8f2b2ef4eb3a603003045818
 folderAsset: yes
+========
+guid: a0262527a4a63ef4f8d0d7fe123a7ff2
+>>>>>>>> working-hand-gestures:Assets/Art/VisualEffects/CAJAL/brain.unitypackage.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

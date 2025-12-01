@@ -1,0 +1,13 @@
+{
+    "asset": "3c30dab599faa134eb95635be8759163",
+    "fileName": "0197c537-cbaf-7e30-94fa-54ff5ccb98c9.wav",
+    "prompt": "a sparkle sound glitter metal",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "1d41bd9cdd54c8673c1cbd59520353df",
+    "duration": 3.5,
+    "autoTrim": true,
+    "hasReference": false
+}

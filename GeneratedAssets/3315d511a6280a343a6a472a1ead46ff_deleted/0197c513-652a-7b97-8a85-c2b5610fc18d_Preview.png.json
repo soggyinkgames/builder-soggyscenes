@@ -1,0 +1,11 @@
+{
+    "asset": "3315d511a6280a343a6a472a1ead46ff",
+    "fileName": "0197c513-652a-7b97-8a85-c2b5610fc18d_Preview.png",
+    "prompt": "create a glowing scale hand material for vr",
+    "negativePrompt": "",
+    "model": "575ecf67-4425-4939-97b9-5e138b8ee234",
+    "modelName": "Unity Texture2D",
+    "customSeed": 1993865363,
+    "w3CTraceId": "b67cf1e02b5e8b04875b8c21ede9519a",
+    "refinementMode": "Generation"
+}
