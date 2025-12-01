@@ -11994,9 +11994,9 @@ MonoBehaviour:
   m_UseOptimizedControls: 1
   m_MetaQuestLeftHandMesh: {fileID: 1089422787}
   m_MetaQuestRightHandMesh: {fileID: 1605323207}
-  m_AndroidXRLeftHandMesh: {fileID: 1089422787}
-  m_AndroidXRRightHandMesh: {fileID: 1605323207}
-  m_HandMeshMaterial: {fileID: 2100000, guid: f97ffc034f0e95e43ab2f8644fd74d73, type: 2}
+  m_AndroidXRLeftHandMesh: {fileID: 919132149155446097, guid: 7eff605df5fc69141bad762b74fb9228, type: 3}
+  m_AndroidXRRightHandMesh: {fileID: 919132149155446097, guid: 49090752ee8bba242ad64a291905ee10, type: 3}
+  m_HandMeshMaterial: {fileID: 2100000, guid: 613690cd962241049a0ec289a6ff835e, type: 2}
   m_DrawMeshes: 1
   m_DebugDrawPrefab: {fileID: 6507399986997092475, guid: 254b742d65a15d14b9df756ae77de868, type: 3}
   m_DebugDrawJoints: 1
