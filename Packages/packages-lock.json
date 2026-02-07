@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.soggyinkgames.package-gamemechanics": {
+      "version": "file:com.soggyinkgames.package-gamemechanics",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.soggyinkgames.package-inventorsvisualeffects": {
       "version": "https://github.com/soggyinkgames/package-inventorsvisualeffects.git",
       "depth": 0,
