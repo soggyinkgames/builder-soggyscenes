@@ -1,14 +1,10 @@
 {
   "name": "com.soggyinkgames.package-gamemechanics",
   "version": "1.0.0",
-  "displayName": "Soggy Package",
+  "displayName": "Soggy Game Mechanics Package",
   "description": "A custom Soggy Ink Games package of game mechanics.",
   "unity": "6000.2",
-  "dependencies": {
-    "com.unity.[CHANGETHISPACKAGENAME]": "[version.number.here]",
-    "com.unity.[CHANGETHISPACKAGENAME]": "[version.number.here]",
-    "com.unity.[CHANGETHISPACKAGENAME]": "[version.number.here]"
-  },
+  "dependencies": {},
   "documentationUrl": "https://example.com/",
   "changelogUrl": "https://example.com/changelog.html/",
   "licensesUrl": "https://example.com/licensing.html/",
