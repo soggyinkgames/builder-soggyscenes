@@ -1,0 +1,1 @@
+C:\Users\Anai Araya\SOGGYINKGAMES\GAMES\builder-soggyscenes\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\1c1c4n3v\obj\arm64-v8a

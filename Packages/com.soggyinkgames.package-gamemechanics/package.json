@@ -1,0 +1,28 @@
+{
+  "name": "com.soggyinkgames.package-gamemechanics",
+  "version": "1.0.0",
+  "displayName": "Soggy Game Mechanics Package",
+  "description": "A custom Soggy Ink Games package of game mechanics.",
+  "unity": "6000.2",
+  "dependencies": {},
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html/",
+  "licensesUrl": "https://example.com/licensing.html/",
+  "author": {
+    "name": "SOGGY INK GAMES",
+    "email": "soggyinkgames@gmail.com",
+    "url": "https://www.soggyinkgames.com/form"
+  },
+  "samples":  [
+    {
+      "displayName": "SoggySampleOne",
+      "description": "A custom Soggy Ink Games package.",
+      "path": "Samples~/SoggySampleOne"
+    },
+    {
+      "displayName": "SoggySampleTwo",
+      "description": "A custom Soggy Ink Games package.",
+      "path": "Samples~/SoggySampleTwo"
+    }
+  ]
+}

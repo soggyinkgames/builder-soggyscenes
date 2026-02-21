@@ -1,0 +1,13 @@
+{
+    "asset": "cd7b94f0f132cbc4a9ef3237ca8cb836",
+    "fileName": "0197c55f-dd51-77db-b229-10e66acc496c.wav",
+    "prompt": "funny horn",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "c08f2c11ed8a51c026574573b8b7d6ef",
+    "duration": 2.638166666030884,
+    "autoTrim": true,
+    "hasReference": true
+}
