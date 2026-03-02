@@ -15,21 +15,12 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.Utilities
             SymbolEvents.SymbolRecognized -= OnSymbol;
         }
 
-        private void OnSymbol(SymbolIdentifier token)
+        private void OnSymbol(SymbolIdentifier identity)
         {
             Debug.Log(
-                $"[Symbol] {token.SymbolId} ({token.Confidence:0.00}) via {token.Source}"
+                $"[Symbol] {identity.SymbolId} ({identity.Confidence:0.00}) via {identity.Source}"
             );
         }
     }
 }
-
-
-// namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.AuslanGestures
-// namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.Data
-// namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.Interfaces
-// namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.SymbolSystem
-// namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.Utilities
-
-
 

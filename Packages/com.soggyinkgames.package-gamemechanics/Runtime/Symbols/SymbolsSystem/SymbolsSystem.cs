@@ -6,10 +6,17 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.SymbolsSystem
     public sealed class SymbolSystem
     {
         private readonly List<AuslanGestureMatcher> _gestureMatchers;
+        private readonly AuslanGestureEvaluator _evaluator;
 
         public SymbolSystem(IEnumerable<AuslanGestureMatcher> matchers)
+            : this(matchers, new AuslanGestureEvaluator(0.7f))
+        {
+        }
+
+        public SymbolSystem(IEnumerable<AuslanGestureMatcher> matchers, AuslanGestureEvaluator evaluator)
         {
             _gestureMatchers = new List<AuslanGestureMatcher>(matchers);
+            _evaluator = evaluator;
         }
 
         public void ProcessInput(AuslanGestureSample sample)
@@ -27,15 +34,17 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.SymbolsSystem
                 }
             }
 
-            if (bestScore > 0.7f)
+            bool meetsThreshold = _evaluator?.Evaluate(bestMatch) ?? bestScore > 0.7f;
+
+            if (meetsThreshold)
             {
-                var token = new SymbolIdentifier(
+                var identity = new SymbolIdentifier(
                     bestMatch.SymbolId,
                     bestScore,
                     SymbolSource.Gesture
                 );
 
-                SymbolEvents.RaiseRecognized(token);
+                SymbolEvents.RaiseRecognized(identity);
             }
             else
             {

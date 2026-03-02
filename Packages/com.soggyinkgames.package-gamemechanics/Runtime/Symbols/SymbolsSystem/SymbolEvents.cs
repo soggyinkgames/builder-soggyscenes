@@ -7,9 +7,9 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.SymbolsSystem
         public static event Action<SymbolIdentifier> SymbolRecognized;
         public static event Action<string> SymbolFailed;
 
-        public static void RaiseRecognized(SymbolIdentifier token)
+        public static void RaiseRecognized(SymbolIdentifier identity)
         {
-            SymbolRecognized?.Invoke(token);
+            SymbolRecognized?.Invoke(identity);
         }
 
         public static void RaiseFailed(string reason)
