@@ -19,6 +19,21 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SymbolSyst
             Assert.AreEqual(SymbolSource.Gesture, identifier.Source);
             Assert.Greater(identifier.Timestamp, 0f);
         }
+
+        [Test]
+        public void Constructor_AssignsActionValues()
+        {
+            var identifier = new SymbolIdentifier(
+                "ILLUMINATE",
+                0.85f,
+                SymbolSource.Gesture
+            );
+
+            Assert.AreEqual("ILLUMINATE", identifier.SymbolId);
+            Assert.AreEqual(0.85f, identifier.Confidence);
+            Assert.AreEqual(SymbolSource.Gesture, identifier.Source);
+            Assert.Greater(identifier.Timestamp, 0f);
+        }
     }
     
 }
