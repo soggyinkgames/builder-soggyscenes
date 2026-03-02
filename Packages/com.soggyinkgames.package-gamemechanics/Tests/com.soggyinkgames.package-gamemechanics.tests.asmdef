@@ -11,5 +11,5 @@
     "versionDefines": [],
     "noEngineReferences": false
     ,
-    "references": ["com.soggyinkgames.package-gamemechanics.runtime", "UnityEngine.TestRunner", "UnityEditor.TestRunner"]
+    "references": ["com.soggyinkgames.package-gamemechanics.runtime", "com.soggyinkgames.package-gamemechanics.runtime.symbols", "UnityEngine.TestRunner", "UnityEditor.TestRunner"]
 }

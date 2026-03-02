@@ -1,24 +1,28 @@
 using NUnit.Framework;
 using UnityEngine;
-using SoggyInkGames.Equanimous.PackageGameMechanics.Symbols;
+using SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.Data;
 
-public class DataIntegrityTests
+namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.Data
 {
-    [Test]
-    public void CanCreateSymbolDefinition()
+    public class DataIntegrityTests
     {
-        var symbol = ScriptableObject.CreateInstance<SymbolDefinition>();
-        symbol.Id = "DATA";
+        [Test]
+        public void CanCreateSymbolDefinition()
+        {
+            var symbol = ScriptableObject.CreateInstance<SymbolDefinition>();
+            symbol.Id = "DATA";
 
-        Assert.AreEqual("DATA", symbol.Id);
+            Assert.AreEqual("DATA", symbol.Id);
+        }
+
+        [Test]
+        public void CanCreateGestureDefinition()
+        {
+            var gesture = ScriptableObject.CreateInstance<GestureDefinition>();
+            gesture.ReferencePath = TestPaths.Line();
+
+            Assert.NotNull(gesture.ReferencePath);
+        }
     }
-
-    [Test]
-    public void CanCreateGestureDefinition()
-    {
-        var gesture = ScriptableObject.CreateInstance<GestureDefinition>();
-        gesture.ReferencePath = TestPaths.Line();
-
-        Assert.NotNull(gesture.ReferencePath);
-    }
+    
 }
