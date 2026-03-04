@@ -1,25 +1,25 @@
 using System.Collections.Generic;
-using SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.AuslanGestures;
+using SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.SoggyHandGestures;
 
 namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.SymbolsSystem
 {
     public sealed class SymbolSystem
     {
-        private readonly List<AuslanGestureMatcher> _gestureMatchers;
-        private readonly AuslanGestureEvaluator _evaluator;
+        private readonly List<HandGestureMatcher> _gestureMatchers;
+        private readonly HandGestureEvaluator _evaluator;
 
-        public SymbolSystem(IEnumerable<AuslanGestureMatcher> matchers)
-            : this(matchers, new AuslanGestureEvaluator(0.7f))
+        public SymbolSystem(IEnumerable<HandGestureMatcher> matchers)
+            : this(matchers, new HandGestureEvaluator(0.7f))
         {
         }
 
-        public SymbolSystem(IEnumerable<AuslanGestureMatcher> matchers, AuslanGestureEvaluator evaluator)
+        public SymbolSystem(IEnumerable<HandGestureMatcher> matchers, HandGestureEvaluator evaluator)
         {
-            _gestureMatchers = new List<AuslanGestureMatcher>(matchers);
+            _gestureMatchers = new List<HandGestureMatcher>(matchers);
             _evaluator = evaluator;
         }
 
-        public void ProcessInput(AuslanGestureSample sample)
+        public void ProcessInput(HandGestureSample sample)
         {
             SymbolMatch bestMatch = default;
             float bestScore = 0f;
