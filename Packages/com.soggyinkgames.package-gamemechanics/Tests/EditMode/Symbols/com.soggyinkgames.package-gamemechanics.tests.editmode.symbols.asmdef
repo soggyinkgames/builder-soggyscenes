@@ -1,0 +1,21 @@
+{
+    "name": "com.soggyinkgames.package-gamemechanics.tests.editmode.symbols",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "com.soggyinkgames.package-gamemechanics.runtime",
+        "com.soggyinkgames.package-gamemechanics.runtime.symbols",
+        "com.soggyinkgames.package-gamemechanics.tests.editmode.helpers"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
