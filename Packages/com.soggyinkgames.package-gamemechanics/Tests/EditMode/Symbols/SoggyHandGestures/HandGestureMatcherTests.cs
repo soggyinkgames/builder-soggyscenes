@@ -8,9 +8,9 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 {
     public class HandGestureMatcherTests
     {
-        private static GestureDefinition CreateBaseDefinition()
+        private static HandGestureDefinition CreateBaseDefinition()
         {
-            var def = ScriptableObject.CreateInstance<GestureDefinition>();
+            var def = ScriptableObject.CreateInstance<HandGestureDefinition>();
             def.GestureId = "TEST_GESTURE";
             def.Symbol = new SymbolDefinition { Id = "TEST" };
             def.MaxDuration = 1f;
@@ -19,8 +19,8 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
         private static Vector3[] TwoSamplePath(Vector3 a, Vector3 b) => new[] { a, b };
 
-        private static HandGestureSample Sample(float duration, Vector3[] path)
-            => new HandGestureSample { Duration = duration, Path = path };
+        private static HandGestureSample Sample(Vector3[] path, float duration)
+            => new HandGestureSample ( path, duration );
 
         [Test]
         public void Constructor_ThrowsArgumentNullException_WhenDefinitionNull()
@@ -31,7 +31,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
         [Test]
         public void Constructor_ThrowsInvalidOperationException_WhenSymbolMissing()
         {
-            var def = ScriptableObject.CreateInstance<GestureDefinition>();
+            var def = ScriptableObject.CreateInstance<HandGestureDefinition>();
             def.MaxDuration = 1f;
             def.IsStatic = true;
             def.MaxMovementLength = 0.01f;
@@ -133,7 +133,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(2f, TwoSamplePath(Vector3.zero, Vector3.right)));
+            var result = matcher.Match(Sample(TwoSamplePath(Vector3.zero, Vector3.right), 2f));
 
             Assert.AreEqual(default(SymbolMatch), result);
             UnityEngine.Object.DestroyImmediate(def);
@@ -148,7 +148,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(0.5f, null));
+            var result = matcher.Match(Sample(null, 0.5f));
 
             Assert.AreEqual(default(SymbolMatch), result);
             UnityEngine.Object.DestroyImmediate(def);
@@ -163,7 +163,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(0.5f, new[] { Vector3.one }));
+            var result = matcher.Match(Sample(new[] { Vector3.one }, 0.5f));
 
             Assert.AreEqual("TEST", result.SymbolId);
             Assert.AreEqual(1f, result.Confidence);
@@ -179,7 +179,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(0.5f, TwoSamplePath(Vector3.zero, Vector3.right * 0.1f)));
+            var result = matcher.Match(Sample(TwoSamplePath(Vector3.zero, Vector3.right * 0.1f), 0.5f));
 
             Assert.AreEqual("TEST", result.SymbolId);
             Assert.AreEqual(1f, result.Confidence);
@@ -195,7 +195,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(0.5f, TwoSamplePath(Vector3.zero, Vector3.right)));
+            var result = matcher.Match(Sample(TwoSamplePath(Vector3.zero, Vector3.right), 0.5f));
 
             Assert.AreEqual("TEST", result.SymbolId);
             Assert.AreEqual(0f, result.Confidence);
@@ -212,7 +212,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(0.5f, null));
+            var result = matcher.Match(Sample(null, 0.5f));
 
             Assert.AreEqual(default(SymbolMatch), result);
             UnityEngine.Object.DestroyImmediate(def);
@@ -228,7 +228,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(0.5f, new[] { Vector3.zero }));
+            var result = matcher.Match(Sample(new[] { Vector3.zero }, 0.5f));
 
             Assert.AreEqual(default(SymbolMatch), result);
             UnityEngine.Object.DestroyImmediate(def);
@@ -244,7 +244,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(0.5f, TwoSamplePath(Vector3.zero, Vector3.right)));
+            var result = matcher.Match(Sample(TwoSamplePath(Vector3.zero, Vector3.right), 0.5f));
 
             Assert.AreEqual("TEST", result.SymbolId);
             Assert.AreEqual(1f, result.Confidence);
@@ -261,7 +261,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(0.5f, TwoSamplePath(Vector3.zero, Vector3.up)));
+            var result = matcher.Match(Sample(TwoSamplePath(Vector3.zero, Vector3.up), 0.5f));
 
             Assert.AreEqual("TEST", result.SymbolId);
             Assert.AreEqual(0f, result.Confidence);
@@ -282,7 +282,7 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Symbols.SoggyHandG
 
             var matcher = new HandGestureMatcher(def);
 
-            var result = matcher.Match(Sample(0.5f, good));
+            var result = matcher.Match(Sample(good, 0.5f));
 
             Assert.AreEqual("TEST", result.SymbolId);
             Assert.AreEqual(1f, result.Confidence);

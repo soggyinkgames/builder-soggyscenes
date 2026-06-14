@@ -1,34 +1,38 @@
 using UnityEngine;
 
-public static class TestPaths
+namespace SoggyInkGames.Equanimous.PackageGameMechanics.Tests.Helpers
 {
-    public static Vector3[] Line()
+    public static class TestPaths
     {
-        return new[]
+        public static Vector3[] Line()
         {
-            new Vector3(0,0,0),
-            new Vector3(0.5f,0,0),
-            new Vector3(1f,0,0)
-        };
-    }
+            return new[]
+            {
+                new Vector3(0,0,0),
+                new Vector3(0.5f,0,0),
+                new Vector3(1f,0,0)
+            };
+        }
 
-    public static Vector3[] SlightlyOffsetLine()
-    {
-        return new[]
+        public static Vector3[] SlightlyOffsetLine()
         {
-            new Vector3(0,0.02f,0),
-            new Vector3(0.5f,0.01f,0),
-            new Vector3(1f,-0.02f,0)
-        };
-    }
+            return new[]
+            {
+                new Vector3(0,0.02f,0),
+                new Vector3(0.5f,0.01f,0),
+                new Vector3(1f,-0.02f,0)
+            };
+        }
 
-    public static Vector3[] VShape()
-    {
-        return new[]
+        public static Vector3[] VShape()
         {
-            new Vector3(0,0,0),
-            new Vector3(0.5f,1f,0),
-            new Vector3(1f,0,0)
-        };
+            return new[]
+            {
+                new Vector3(0,0,0),
+                new Vector3(0.5f,1f,0),
+                new Vector3(1f,0,0)
+            };
+        }
     }
+    
 }
