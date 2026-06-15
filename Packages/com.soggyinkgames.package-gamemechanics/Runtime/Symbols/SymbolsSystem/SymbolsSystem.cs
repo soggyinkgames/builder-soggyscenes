@@ -3,17 +3,17 @@ using SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.SoggyHandGestures;
 
 namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.SymbolsSystem
 {
-    public sealed class SymbolSystem
+    public sealed class SymbolsSystem
     {
         private readonly List<HandGestureMatcher> _gestureMatchers;
         private readonly HandGestureEvaluator _evaluator;
 
-        public SymbolSystem(IEnumerable<HandGestureMatcher> matchers)
+        public SymbolsSystem(IEnumerable<HandGestureMatcher> matchers)
             : this(matchers, new HandGestureEvaluator(0.7f))
         {
         }
 
-        public SymbolSystem(IEnumerable<HandGestureMatcher> matchers, HandGestureEvaluator evaluator)
+        public SymbolsSystem(IEnumerable<HandGestureMatcher> matchers, HandGestureEvaluator evaluator)
         {
             _gestureMatchers = new List<HandGestureMatcher>(matchers);
             _evaluator = evaluator;

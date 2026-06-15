@@ -6,40 +6,40 @@ namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.SoggyHandGesture
 {
     public sealed class HandGestureMatcher
     {
-        private readonly GestureDefinition _definition;
+        private readonly HandGestureDefinition _definition;
 
-        public HandGestureMatcher(GestureDefinition definition)
+        public HandGestureMatcher(HandGestureDefinition definition)
         {
             if (definition == null)
                 throw new ArgumentNullException(nameof(definition));
 
             if (definition.Symbol == null)
-                throw new InvalidOperationException("GestureDefinition.Symbol is required.");
+                throw new InvalidOperationException("HandGestureDefinition.Symbol is required.");
 
             if (string.IsNullOrWhiteSpace(definition.Symbol.Id))
-                throw new InvalidOperationException("GestureDefinition.Symbol.Id is required.");
+                throw new InvalidOperationException("HandGestureDefinition.Symbol.Id is required.");
 
             if (definition.MaxDuration <= 0f)
-                throw new InvalidOperationException("GestureDefinition.MaxDuration must be > 0.");
+                throw new InvalidOperationException("HandGestureDefinition.MaxDuration must be > 0.");
 
             if (definition.IsStatic)
             {
                 if (definition.MaxMovementLength < 0f)
-                    throw new InvalidOperationException("GestureDefinition.MaxMovementLength must be >= 0 for static gestures.");
+                    throw new InvalidOperationException("HandGestureDefinition.MaxMovementLength must be >= 0 for static gestures.");
             }
             else
             {
                 if (definition.MaxDeviation <= 0f)
-                    throw new InvalidOperationException("GestureDefinition.MaxDeviation must be > 0 for dynamic gestures.");
+                    throw new InvalidOperationException("HandGestureDefinition.MaxDeviation must be > 0 for dynamic gestures.");
 
                 if (definition.ReferencePaths == null || definition.ReferencePaths.Length == 0)
-                    throw new InvalidOperationException("GestureDefinition.ReferencePaths is required for dynamic gestures.");
+                    throw new InvalidOperationException("HandGestureDefinition.ReferencePaths is required for dynamic gestures.");
 
                 for (int i = 0; i < definition.ReferencePaths.Length; i++)
                 {
                     var path = definition.ReferencePaths[i];
                     if (path == null || path.Length < 2)
-                        throw new InvalidOperationException($"GestureDefinition.ReferencePaths[{i}] must have at least 2 samples.");
+                        throw new InvalidOperationException($"HandGestureDefinition.ReferencePaths[{i}] must have at least 2 samples.");
                 }
             }
 

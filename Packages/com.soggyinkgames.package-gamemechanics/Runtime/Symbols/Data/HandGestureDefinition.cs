@@ -3,7 +3,7 @@ using UnityEngine;
 namespace SoggyInkGames.Equanimous.PackageGameMechanics.Symbols.Data
 {
     [CreateAssetMenu(menuName = "Symbols/Gesture Definition")]
-    public class GestureDefinition : ScriptableObject
+    public class HandGestureDefinition : ScriptableObject
     {
         [Header("Identity")]
         public string GestureId;
