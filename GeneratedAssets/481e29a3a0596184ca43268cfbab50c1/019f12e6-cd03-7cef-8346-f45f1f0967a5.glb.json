@@ -1,0 +1,23 @@
+{
+  "asset": "481e29a3a0596184ca43268cfbab50c1",
+  "fileName": "019f12e6-cd03-7cef-8346-f45f1f0967a5.glb",
+  "prompt": "a sea plane with a shader that makes it look like the outlines of it are made with matrix code in green and black\n",
+  "negativePrompt": "",
+  "model": "model3d-tripo-p1",
+  "modelName": "Tripo P1",
+  "customSeed": -1,
+  "w3CTraceId": "",
+  "feedback": 1,
+  "refinementMode": "Generation",
+  "promptImageReferenceGuid": "98bdf2f997f29cc4faf6671d9fc6787a",
+  "modelReferenceGuid": "",
+  "multiviewFrontGuid": "",
+  "multiviewBackGuid": "",
+  "multiviewLeftGuid": "",
+  "multiviewRightGuid": "",
+  "multiviewTopGuid": "",
+  "multiviewBottomGuid": "",
+  "multiviewLeftFrontGuid": "",
+  "multiviewRightFrontGuid": "",
+  "faceLimit": -1
+}
