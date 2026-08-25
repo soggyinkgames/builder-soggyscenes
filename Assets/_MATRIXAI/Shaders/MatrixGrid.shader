@@ -6,7 +6,9 @@ Shader "MatrixAI/MatrixGrid"
     Properties
     {
         // ── Active properties ──────────────────────────────────────────
+        [Enum(UnityEngine.Rendering.CullMode)] _Cull ("Cull Mode", Float) = 2   // 2=Back (flat), 1=Front (dome)
         [Toggle(_SPHERICAL_MAPPING)] _SphericalMapping ("Spherical Mapping (Dome)", Float) = 0
+        [Enum(Down,0,Up,1)] _FlowDir ("Trail Direction", Float) = 0
         _Color       ("Rain Color",              Color)       = (0, 1, 0, 1)
         _Glow        ("Glow Intensity",          Float)       = 1.5
         _CellSize    ("Cell Size (world units)", Float)       = 4.0
@@ -32,7 +34,7 @@ Shader "MatrixAI/MatrixGrid"
         {
             Name "UniversalForward"
             Tags { "LightMode" = "UniversalForward" }
-            Cull Off
+            Cull [_Cull]
 
             HLSLPROGRAM
             #pragma vertex   Vert
@@ -50,6 +52,7 @@ Shader "MatrixAI/MatrixGrid"
                 float  _Speed;
                 float  _TrailLength;
                 float  _Density;
+                float  _FlowDir;
                 float  _GridSpacing;
                 float  _LineWidth;
             CBUFFER_END
@@ -145,8 +148,10 @@ Shader "MatrixAI/MatrixGrid"
                 // Period long enough to have gaps between successive drops.
                 float period = max(_TrailLength * 8.0, _TrailLength + 1.0);
 
-                // Large positive offset makes fmod safe for any world-Z sign
-                float cellRow = fmod(cellId.y + 100000.0, period);
+                // _FlowDir (0 = Down / default, 1 = Up) reverses trail travel.
+                // Large positive offset makes fmod safe for any sign.
+                float flowSign = (_FlowDir > 0.5) ? -1.0 : 1.0;
+                float cellRow = fmod(cellId.y * flowSign + 100000.0, period);
                 float headPos = fmod(_Time.y * colSpeed + colPhase, period);
 
                 // trailDist = 0 → head glyph (brightest)
@@ -158,7 +163,9 @@ Shader "MatrixAI/MatrixGrid"
 
                 // ── Brightness gradient ────────────────────────────────
                 float trailT     = trailDist / max(_TrailLength, 0.001);
-                float brightness = pow(saturate(1.0 - trailT), 2.2);
+                // Cheaper squared falloff — visually near-identical to pow(x,2.2), no per-pixel pow()
+                float inv        = saturate(1.0 - trailT);
+                float brightness = inv * inv;
 
                 // ── Cell margin (gap between glyphs) ───────────────────
                 float  margin   = 0.07;

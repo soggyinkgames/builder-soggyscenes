@@ -8030,7 +8030,7 @@ Transform:
   m_GameObject: {fileID: 728614144}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4533, y: 110, z: 6259}
+  m_LocalPosition: {x: 5055, y: 201, z: 6231}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11725,7 +11725,7 @@ Transform:
   m_GameObject: {fileID: 1287625396}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.72784436, z: 0, w: 0.6857424}
-  m_LocalPosition: {x: -1774.0996, y: -1485.7314, z: 6777.854}
+  m_LocalPosition: {x: -1833.1165, y: -1394.7314, z: 6258.446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11916,7 +11916,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 5000
+  far clip plane: 25000
   field of view: 40
   orthographic: 0
   orthographic size: 10
@@ -12208,7 +12208,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1346856929
 Canvas:
   m_ObjectHideFlags: 0
@@ -18078,15 +18078,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1122713473484527141, guid: 481e29a3a0596184ca43268cfbab50c1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4533
+      value: 5055
       objectReference: {fileID: 0}
     - target: {fileID: 1122713473484527141, guid: 481e29a3a0596184ca43268cfbab50c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 80
+      value: 171
       objectReference: {fileID: 0}
     - target: {fileID: 1122713473484527141, guid: 481e29a3a0596184ca43268cfbab50c1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6359
+      value: 6331
       objectReference: {fileID: 0}
     - target: {fileID: 1122713473484527141, guid: 481e29a3a0596184ca43268cfbab50c1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18192,7 +18192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MatrixAI.MatrixFlightController
   mode: 0
-  cruiseSpeed: 50
+  cruiseSpeed: 80
   maxSpeed: 100
   turnSpeed: 2
   pitchSpeed: 1.5
@@ -18204,13 +18204,20 @@ MonoBehaviour:
   rollAction: {fileID: 0}
   throttleAction: {fileID: 0}
   waypoints:
+  - {x: 2427, y: 80, z: 4288}
+  - {x: 3489, y: 80, z: 5447}
+  - {x: 5025, y: 80, z: 7264}
+  - {x: 8940, y: 80, z: 12599}
+  - {x: 9177, y: 80, z: 16598}
   - {x: 4533, y: 80, z: 6359}
-  - {x: 6333, y: 100, z: 8159}
-  - {x: 8133, y: 200, z: 9959}
-  - {x: 8133, y: 70, z: 11759}
-  - {x: 9933, y: 106, z: 13559}
-  - {x: 9933, y: 116, z: 15359}
-  - {x: 9933, y: 125, z: 17159}
+  - {x: 12246, y: 1368, z: 15927}
+  - {x: 14557, y: 1368, z: 13710}
+  - {x: 14769, y: 1368, z: 11375}
+  - {x: 14702, y: 1368, z: 7967}
+  - {x: 14915, y: 171, z: 7181}
+  - {x: 11774, y: 171, z: 4040}
+  - {x: 8242, y: 171, z: 4117}
+  - {x: 5055, y: 171, z: 6331}
   currentWaypointIndex: 0
   waypointRadius: 100
 --- !u!54 &2087077013

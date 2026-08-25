@@ -25,13 +25,16 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _CellSize: 4
-    - _Density: 0.7
+    - _CellSize: 5
+    - _Cull: 2
+    - _Density: 0.915
+    - _FlowDir: 1
     - _Glow: 1
     - _GridSpacing: 50
-    - _LineWidth: 0.05
-    - _Speed: 2
-    - _TrailLength: 10
+    - _LineWidth: 0.5
+    - _Speed: 50
+    - _SphericalMapping: 0
+    - _TrailLength: 100
     m_Colors:
     - _Color: {r: 0, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
